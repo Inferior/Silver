@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.asd.silver.shared
+Bundle-SymbolicName: org.asd.silver.shared;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.asd.silver.shared.Activator
+Export-Package: org.asd.silver.shared,
+ org.asd.silver.shared.alpah,
+ org.asd.silver.shared.alpha,
+ org.asd.silver.shared.delta,
+ org.asd.silver.shared.gamma,
+ org.asd.silver.shared.services,
+ org.asd.silver.shared.services.common.text
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.scout.rt.shared;visibility:=reexport
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy

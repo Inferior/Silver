@@ -1,0 +1,282 @@
+!SESSION 2014-10-29 09:59:08.782 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.asd.silver.server.product
+Command-line arguments:  -product org.asd.silver.server.product -data C:\app\Git\Silver/../runtime-silver-server-dev.product -dev file:C:/app/Git/Silver/.metadata/.plugins/org.eclipse.pde.core/silver-server-dev.product/dev.properties -os win32 -ws win32 -arch x86_64 -consoleLog
+
+!ENTRY org.asd.silver.server 1 0 2014-10-29 09:59:09.749
+!MESSAGE org.asd.silver.server.ServerApplication.start(ServerApplication.java:35) silver server initialized
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.948
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.<clinit>(ConfigIniUtility.java:71) Config Bean Properties
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.948
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.<clinit>(ConfigIniUtility.java:73)  org.eclipse.scout.rt.server.services.common.file.RemoteFileService#rootPath=C:/app/Git/Silver/org.asd.silver.server/j2ee/ear/war/WEB-INF/remotefiles
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.948
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.<clinit>(ConfigIniUtility.java:73)  org.eclipse.scout.rt.server.commons.servletfilter.security.BasicSecurityFilter#realm=silver Development
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.948
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.<clinit>(ConfigIniUtility.java:73)  org.eclipse.scout.rt.server.commons.servletfilter.security.BasicSecurityFilter#users=admin=manager,allen=allen,blake=blake
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.948
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.<clinit>(ConfigIniUtility.java:73)  org.eclipse.scout.rt.server.commons.servletfilter.security.AnonymousSecurityFilter#active=true
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.948
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.<clinit>(ConfigIniUtility.java:73)  org.eclipse.scout.rt.server.commons.servletfilter.security.BasicSecurityFilter#active=false
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.948
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:94) Properties for org.eclipse.scout.rt.server.commons.servletfilter.security.BasicSecurityFilter
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.948
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:96)  active=false
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.948
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:96)  realm=silver Development
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.948
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:96)  users=admin=manager,allen=allen,blake=blake
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.948
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:94) Properties for org.eclipse.scout.rt.server.commons.servletfilter.security.BasicSecurityFilter
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.948
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:96)  active=false
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.948
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:96)  realm=silver Development
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.948
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:96)  users=admin=manager,allen=allen,blake=blake
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.948
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:94) Properties for org.eclipse.scout.rt.server.commons.servletfilter.security.AnonymousSecurityFilter
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.949
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:96)  active=true
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.949
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:94) Properties for org.eclipse.scout.rt.server.commons.servletfilter.security.BasicSecurityFilter
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.949
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:96)  active=false
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.949
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:96)  realm=silver Development
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.949
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:96)  users=admin=manager,allen=allen,blake=blake
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.949
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:94) Properties for org.eclipse.scout.rt.server.commons.servletfilter.security.AnonymousSecurityFilter
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:12.949
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:96)  active=true
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:13.042
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:94) Properties for org.eclipse.scout.rt.server.commons.cache.StickySessionCacheService
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:13.058
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:94) Properties for org.eclipse.scout.rt.server.services.common.session.ServerSessionRegistryService
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:13.074
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:94) Properties for org.asd.silver.server.services.common.security.AccessControlService
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:13.074
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:94) Properties for org.eclipse.scout.rt.server.services.common.clientnotification.ClientNotificationService
+
+!ENTRY org.asd.silver.server 1 0 2014-10-29 09:59:13.089
+!MESSAGE org.asd.silver.server.ServerSession.execLoadSession(ServerSession.java:26) created a new session for anonymous
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:13.464
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:94) Properties for org.asd.silver.server.services.DesktopService
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:15.835
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:94) Properties for org.asd.silver.server.alpah.NewPartService
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:17.411
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:94) Properties for org.asd.silver.server.delta.CompanyLookupService
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:17.411
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:94) Properties for org.asd.silver.server.services.common.sql.DevelopmentSqlService
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:17.412
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:94) Properties for org.eclipse.scout.rt.server.services.common.security.PermissionService
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 09:59:18.140
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.exec.StatementProcessor.<clinit>(StatementProcessor.java:77) SQL Log 'INFO': statements are logged with bind details, but not as plaintext. Use level 'FINE' to also log SQL as plain text (suitable for direct use in executable form)
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 09:59:18.405
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.pool.SqlConnectionPool.leaseConnection(SqlConnectionPool.java:104) created jdbc connection com.mysql.jdbc.JDBC4Connection@3e3b52c9
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 09:59:18.417
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.exec.StatementProcessor.dump(StatementProcessor.java:847) 
+SQL with binds:
+SELECT    COMPANY_ID,
+          COMPANY_NAMELONG
+FROM      COMPANY
+WHERE     1 = 1
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:20.263
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:94) Properties for org.asd.silver.server.delta.DivisionLookupService
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 09:59:20.264
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.exec.StatementProcessor.dump(StatementProcessor.java:847) 
+SQL with binds:
+SELECT    DIVISION_ID,
+          DIVISION_NAME
+FROM      DIVISION
+WHERE     1 = 1
+          AND COMPANY_COMPANY_ID = :master
+IN  :master => ? [BIGINT 2]
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:24.189
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:94) Properties for org.asd.silver.server.delta.ProgramLookupService
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 09:59:24.189
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.exec.StatementProcessor.dump(StatementProcessor.java:847) 
+SQL with binds:
+SELECT    PROGRAM_ID,
+          PROGRAM_NAMESHORT
+FROM      PROGRAM
+WHERE     1 = 1
+          AND DIVISION_COMPANY_COMPANY_ID = :master
+IN  :master => ? [BIGINT 2]
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 09:59:27.225
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.exec.StatementProcessor.dump(StatementProcessor.java:847) 
+SQL with binds:
+SELECT    DIVISION_ID,
+          DIVISION_NAME
+FROM      DIVISION
+WHERE     1 = 1
+          AND COMPANY_COMPANY_ID = :master
+IN  :master => ? [BIGINT 2]
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 09:59:30.190
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.exec.StatementProcessor.dump(StatementProcessor.java:847) 
+SQL with binds:
+SELECT    PROGRAM_ID,
+          PROGRAM_NAMESHORT
+FROM      PROGRAM
+WHERE     1 = 1
+          AND DIVISION_COMPANY_COMPANY_ID = :master
+IN  :master => ? [BIGINT 2]
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 09:59:32.027
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.exec.StatementProcessor.dump(StatementProcessor.java:847) 
+SQL with binds:
+SELECT    COMPANY_ID,
+          COMPANY_NAMELONG
+FROM      COMPANY
+WHERE     1 = 1
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 09:59:34.780
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.exec.StatementProcessor.dump(StatementProcessor.java:847) 
+SQL with binds:
+SELECT    PROGRAM_ID,
+          PROGRAM_NAMESHORT
+FROM      PROGRAM
+WHERE     1 = 1
+          AND DIVISION_COMPANY_COMPANY_ID = :master
+IN  :master => ? [BIGINT 1]
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 09:59:36.834
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.exec.StatementProcessor.dump(StatementProcessor.java:847) 
+SQL with binds:
+SELECT    DIVISION_ID,
+          DIVISION_NAME
+FROM      DIVISION
+WHERE     1 = 1
+          AND COMPANY_COMPANY_ID = :master
+IN  :master => ? [BIGINT 1]
+
+!ENTRY org.eclipse.scout.commons 1 0 2014-10-29 09:59:47.722
+!MESSAGE org.eclipse.scout.commons.ConfigIniUtility.getProperties(ConfigIniUtility.java:94) Properties for org.eclipse.scout.rt.server.services.common.security.LogoutService
+
+!ENTRY org.asd.silver.server 1 0 2014-10-29 10:04:07.893
+!MESSAGE org.asd.silver.server.ServerSession.execLoadSession(ServerSession.java:26) created a new session for anonymous
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 10:04:13.685
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.exec.StatementProcessor.dump(StatementProcessor.java:847) 
+SQL with binds:
+SELECT    COMPANY_ID,
+          COMPANY_NAMELONG
+FROM      COMPANY
+WHERE     1 = 1
+          AND COMPANY_NAMELONG LIKE :text
+IN  :text => ? [VARCHAR 2%]
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 10:04:14.503
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.exec.StatementProcessor.dump(StatementProcessor.java:847) 
+SQL with binds:
+SELECT    COMPANY_ID,
+          COMPANY_NAMELONG
+FROM      COMPANY
+WHERE     1 = 1
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 10:04:16.497
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.exec.StatementProcessor.dump(StatementProcessor.java:847) 
+SQL with binds:
+SELECT    COMPANY_ID,
+          COMPANY_NAMELONG
+FROM      COMPANY
+WHERE     1 = 1
+          AND COMPANY_NAMELONG LIKE :text
+IN  :text => ? [VARCHAR nor%]
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 10:04:17.730
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.exec.StatementProcessor.dump(StatementProcessor.java:847) 
+SQL with binds:
+SELECT    DIVISION_ID,
+          DIVISION_NAME
+FROM      DIVISION
+WHERE     1 = 1
+          AND COMPANY_COMPANY_ID = :master
+          AND DIVISION_NAME LIKE :text
+IN  :master => ? [BIGINT 1]
+IN  :text => ? [VARCHAR a%]
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 10:04:18.082
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.exec.StatementProcessor.dump(StatementProcessor.java:847) 
+SQL with binds:
+SELECT    DIVISION_ID,
+          DIVISION_NAME
+FROM      DIVISION
+WHERE     1 = 1
+          AND COMPANY_COMPANY_ID = :master
+          AND DIVISION_NAME LIKE :text
+IN  :master => ? [BIGINT 1]
+IN  :text => ? [VARCHAR ap%]
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 10:04:19.226
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.pool.ConnectionCloseThread.run(ConnectionCloseThread.java:33) close connection com.mysql.jdbc.JDBC4Connection@3e3b52c9
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 10:04:19.226
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.pool.SqlConnectionPool.leaseConnection(SqlConnectionPool.java:104) created jdbc connection com.mysql.jdbc.JDBC4Connection@4eaf8cab
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 10:04:19.227
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.exec.StatementProcessor.dump(StatementProcessor.java:847) 
+SQL with binds:
+SELECT    PROGRAM_ID,
+          PROGRAM_NAMESHORT
+FROM      PROGRAM
+WHERE     1 = 1
+          AND DIVISION_COMPANY_COMPANY_ID = :master
+          AND PROGRAM_NAMESHORT LIKE :text
+IN  :master => ? [BIGINT 1]
+IN  :text => ? [VARCHAR l%]
+
+!ENTRY org.eclipse.scout.rt.server 1 0 2014-10-29 10:04:19.604
+!MESSAGE org.eclipse.scout.rt.server.services.common.jdbc.internal.exec.StatementProcessor.dump(StatementProcessor.java:847) 
+SQL with binds:
+SELECT    PROGRAM_ID,
+          PROGRAM_NAMESHORT
+FROM      PROGRAM
+WHERE     1 = 1
+          AND DIVISION_COMPANY_COMPANY_ID = :master
+          AND PROGRAM_NAMESHORT LIKE :text
+IN  :master => ? [BIGINT 1]
+IN  :text => ? [VARCHAR ll%]

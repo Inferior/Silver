@@ -1,0 +1,162 @@
+!SESSION 2014-10-28 13:53:03.120 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.scout.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.scout.product
+
+!ENTRY org.eclipse.scout.sdk 1 0 2014-10-28 13:53:34.992
+!MESSAGE org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	Starting SCOUT SDK Plugin.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-10-28 13:54:43.698
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2014-10-29 09:25:13.509 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.scout.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.scout.product
+
+!ENTRY org.eclipse.scout.sdk 1 0 2014-10-29 09:25:45.181
+!MESSAGE org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	Starting SCOUT SDK Plugin.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-10-29 09:30:19.821
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.scout.sdk 1 0 2014-10-29 09:43:17.461
+!MESSAGE org.eclipse.scout.sdk.extensions.codeid.CodeIdExtensionPoint.getCodeIdParsers(CodeIdExtensionPoint.java:106)
+	found code id parser: org.eclipse.scout.sdk.extensions.codeid.parsers.BooleanCodeIdParser
+
+!ENTRY org.eclipse.scout.sdk 1 0 2014-10-29 09:43:17.477
+!MESSAGE org.eclipse.scout.sdk.extensions.codeid.CodeIdExtensionPoint.getCodeIdParsers(CodeIdExtensionPoint.java:106)
+	found code id parser: org.eclipse.scout.sdk.extensions.codeid.parsers.DoubleCodeIdParser
+
+!ENTRY org.eclipse.scout.sdk 1 0 2014-10-29 09:43:17.477
+!MESSAGE org.eclipse.scout.sdk.extensions.codeid.CodeIdExtensionPoint.getCodeIdParsers(CodeIdExtensionPoint.java:106)
+	found code id parser: org.eclipse.scout.sdk.extensions.codeid.parsers.FloatCodeIdParser
+
+!ENTRY org.eclipse.scout.sdk 1 0 2014-10-29 09:43:17.477
+!MESSAGE org.eclipse.scout.sdk.extensions.codeid.CodeIdExtensionPoint.getCodeIdParsers(CodeIdExtensionPoint.java:106)
+	found code id parser: org.eclipse.scout.sdk.extensions.codeid.parsers.IntegerCodeIdParser
+
+!ENTRY org.eclipse.scout.sdk 1 0 2014-10-29 09:43:17.477
+!MESSAGE org.eclipse.scout.sdk.extensions.codeid.CodeIdExtensionPoint.getCodeIdParsers(CodeIdExtensionPoint.java:106)
+	found code id parser: org.eclipse.scout.sdk.extensions.codeid.parsers.LongCodeIdParser
+
+!ENTRY org.eclipse.scout.sdk 1 0 2014-10-29 09:43:17.477
+!MESSAGE org.eclipse.scout.sdk.extensions.codeid.CodeIdExtensionPoint.getCodeIdParsers(CodeIdExtensionPoint.java:106)
+	found code id parser: org.eclipse.scout.sdk.extensions.codeid.parsers.StringCodeIdParser
+
+!ENTRY org.eclipse.jface 2 0 2014-10-29 09:48:47.487
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-29 09:48:47.487
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39869197,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.match_pair_outward,Match Pair Outward,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d0bfedc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.scout.sdk 1 0 2014-10-29 09:51:55.451
+!MESSAGE org.eclipse.scout.sdk.workspace.type.ScoutTypeUtility.createStructuredType(ScoutTypeUtility.java:1204)
+	no structured type defined for type 'org.asd.silver.server.services.common.sql.DevelopmentSqlService'.
+
+!ENTRY org.eclipse.scout.sdk 1 0 2014-10-29 09:51:57.619
+!MESSAGE org.eclipse.scout.sdk.workspace.type.ScoutTypeUtility.createStructuredType(ScoutTypeUtility.java:1204)
+	no structured type defined for type 'org.asd.silver.server.services.common.sql.DevelopmentSqlService'.
+
+!ENTRY org.eclipse.scout.sdk 1 0 2014-10-29 09:52:11.004
+!MESSAGE org.eclipse.scout.sdk.workspace.type.ScoutTypeUtility.createStructuredType(ScoutTypeUtility.java:1204)
+	no structured type defined for type 'org.asd.silver.server.services.common.sql.DevelopmentSqlService'.
+
+!ENTRY org.eclipse.debug.ui 4 120 2014-10-29 09:52:57.840
+!MESSAGE org.eclipse.debug.ui.toggleBreakpointsTargetFactory extension failed to load breakpoint toggle target because the specified id is already registered.  Specified ID is: org.chromium.debug.ui.ChromiumToggleBreakpointTargetFactory
+!SESSION 2014-10-29 14:11:03.058 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.scout.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.scout.product
+
+!ENTRY org.eclipse.scout.sdk 1 0 2014-10-29 14:13:54.942
+!MESSAGE org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	Starting SCOUT SDK Plugin.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-10-29 14:16:14.174
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.scout.sdk 1 0 2014-10-29 14:17:49.710
+!MESSAGE org.eclipse.scout.sdk.extensions.codeid.CodeIdExtensionPoint.getCodeIdParsers(CodeIdExtensionPoint.java:106)
+	found code id parser: org.eclipse.scout.sdk.extensions.codeid.parsers.BooleanCodeIdParser
+
+!ENTRY org.eclipse.scout.sdk 1 0 2014-10-29 14:17:49.710
+!MESSAGE org.eclipse.scout.sdk.extensions.codeid.CodeIdExtensionPoint.getCodeIdParsers(CodeIdExtensionPoint.java:106)
+	found code id parser: org.eclipse.scout.sdk.extensions.codeid.parsers.DoubleCodeIdParser
+
+!ENTRY org.eclipse.scout.sdk 1 0 2014-10-29 14:17:49.710
+!MESSAGE org.eclipse.scout.sdk.extensions.codeid.CodeIdExtensionPoint.getCodeIdParsers(CodeIdExtensionPoint.java:106)
+	found code id parser: org.eclipse.scout.sdk.extensions.codeid.parsers.FloatCodeIdParser
+
+!ENTRY org.eclipse.scout.sdk 1 0 2014-10-29 14:17:49.710
+!MESSAGE org.eclipse.scout.sdk.extensions.codeid.CodeIdExtensionPoint.getCodeIdParsers(CodeIdExtensionPoint.java:106)
+	found code id parser: org.eclipse.scout.sdk.extensions.codeid.parsers.IntegerCodeIdParser
+
+!ENTRY org.eclipse.scout.sdk 1 0 2014-10-29 14:17:49.726
+!MESSAGE org.eclipse.scout.sdk.extensions.codeid.CodeIdExtensionPoint.getCodeIdParsers(CodeIdExtensionPoint.java:106)
+	found code id parser: org.eclipse.scout.sdk.extensions.codeid.parsers.LongCodeIdParser
+
+!ENTRY org.eclipse.scout.sdk 1 0 2014-10-29 14:17:49.726
+!MESSAGE org.eclipse.scout.sdk.extensions.codeid.CodeIdExtensionPoint.getCodeIdParsers(CodeIdExtensionPoint.java:106)
+	found code id parser: org.eclipse.scout.sdk.extensions.codeid.parsers.StringCodeIdParser
+
+!ENTRY org.eclipse.jface 2 0 2014-10-29 14:20:07.490
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-29 14:20:07.490
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@667e412a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.match_pair_outward,Match Pair Outward,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@8fbae48,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)

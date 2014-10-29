@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <extension id="app" name="Application" point="org.eclipse.core.runtime.applications">
+    <application>
+      <run class="org.asd.silver.ui.swing.SwingApplication"/>
+    </application>
+  </extension>
+  <extension id="product" point="org.eclipse.core.runtime.products">
+    <product
+          application="org.asd.silver.ui.swing.app"
+          name="silver">
+       <property
+             name="appName"
+             value="silver">
+       </property>
+    </product>
+  </extension>
+</plugin>
